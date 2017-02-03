@@ -32,7 +32,7 @@
         var service = this;
 
         // List of shopping items
-        var toBuyItems = [{ quantity: 2, name: 'Apples' }, { quantity: 3, name: 'Carrots' }, { quantity: 5, name: 'Cookies' }];
+        var toBuyItems = [{ quantity: 2, name: 'Apples' }, { quantity: 3, name: 'Carrots' }, { quantity: 5, name: 'Cookies' }, { quantity: 7, name: 'Sodas' }, { quantity: 4, name: 'Tums' }];
         var boughtItems = [];
 
         service.buyItem = function(itemIndex) {
